@@ -1,0 +1,4 @@
+user alice --skills=java,ml --exp=2
+user bob --skills=python --exp=3
+job Java_Dev --company=VK --tags=java,backend --exp=1
+job ML_Engineer --company=Google --tags=ml,python --exp=2
