@@ -12,10 +12,10 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/stats")
-public class StatsController {
+public class StatController {
     private final RecommendationService recommendationService;
 
-    public StatsController(RecommendationService recommendationService) {
+    public StatController(RecommendationService recommendationService) {
         this.recommendationService = recommendationService;
     }
 

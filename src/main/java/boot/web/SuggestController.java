@@ -14,12 +14,12 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 @RestController
-@RequestMapping("/recommendations")
-public class RecommendationController {
+@RequestMapping("/suggest")
+public class SuggestController {
     private final RecommendationService recommendationService;
     private final BestJobFinderTask bestJobFinderTask;
 
-    public RecommendationController(RecommendationService recommendationService, BestJobFinderTask bestJobFinderTask) {
+    public SuggestController(RecommendationService recommendationService, BestJobFinderTask bestJobFinderTask) {
         this.recommendationService = recommendationService;
         this.bestJobFinderTask = bestJobFinderTask;
     }
